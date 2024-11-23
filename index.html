@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>reveal.js</title>
+	<title>Practical examples of Concepts of Neural Networks</title>
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
@@ -25,10 +25,24 @@
 			<div class="slides">
 				<section>
 					<div class="sl-block" data-block-type="text"
-						style="width: 806px; left: 237px; top: 202px; height: auto;">
-						<div class="sl-block-content" data-gramm="false" style="">
+						style="width: 806px; left: 237px; top: 67px; height: auto;">
+						<div class="sl-block-content" data-gramm="false" style="z-index: 10;">
 							<h1>Practical examples of Concepts of Neural Networks</h1>
 						</div>
+					</div>
+					<div class="sl-block" data-block-type="text"
+						style="height: auto; width: 322px; left: 158px; top: 432px;" data-name="text-59d069">
+						<div class="sl-block-content" style="z-index: 11;" data-lt-tmp-id="lt-477517"
+							data-gramm="false">
+							<p><span>汇报人：思博</span></p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image"
+						style="width: 394.667px; height: 111px; left: 849.333px; top: 545.5px;"
+						data-name="image-92b6b2">
+						<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="352"
+								data-natural-height="99"
+								data-src="https://media.slid.es/uploads/3596/images/11764920/tianjin-red.png"></div>
 					</div>
 				</section>
 				<section>
@@ -64,26 +78,81 @@
 					</div>
 					<div class="sl-block" data-block-type="image"
 						style="width: 602px; height: 648px; left: 640px; top: 36px; min-width: 1px; min-height: 1px;">
-						<div class="sl-block-content" style="z-index: 11;"></div>
+						<div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1920"
+								data-natural-height="1280" data-crop-x="0.190329" data-crop-y="0"
+								data-crop-width="0.619342" data-crop-height="1"
+								style="left: -185px; top: 0px; width: 972px; height: 648px;" data-lazy-loaded=""
+								data-src="https://images.unsplash.com/photo-1545987796-200677ee1011?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wyMDcwNnwwfDF8c2VhcmNofDZ8fG5ldXJhbCUyMG5ldHdvcmtzfGVufDB8fHx8MTczMjM2MjE4N3ww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920&amp;utm_source=slides&amp;utm_medium=referral&amp;utm_campaign=api-credit">
+						</div>
 					</div>
 				</section>
-				<section>
-					<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
-						style="width: 1280px; height: 625px; left: 0px; top: 95px;">
-						<div class="sl-block-content" style="z-index: 10;"><iframe
-								allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"
-								sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"
-								data-preload="true" data-lazy-loaded=""
-								data-src="https://neural.syta.co/#activation=sigmoid&amp;regularization=L2&amp;batchSize=10&amp;dataset=circle&amp;regDataset=reg-gauss&amp;learningRate=0.03&amp;regularizationRate=0.01&amp;noise=0&amp;networkShape=4&amp;seed=0.21224&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;sinX=true&amp;sinY=true&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=true"></iframe>
+				<section class="stack">
+					<section>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102px; top: 194px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>1 Neuron (perceptron)</h1>
+							</div>
 						</div>
-					</div>
-					<div class="sl-block" data-block-type="text"
-						style="width: 550px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
-						<div class="sl-block-content" style="text-align: left; z-index: 11;" data-lt-tmp-id="lt-527390"
-							data-gramm="false">
-							<h2>Bla bla</h2>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102px; top: 292px; height: auto;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h2>1 var, 2 vars, XOR</h2>
+							</div>
 						</div>
-					</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
+							style="width: 1280px; height: 625px; left: 0px; top: 95px;">
+							<div class="sl-block-content" style="z-index: 10;"><iframe
+									allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"
+									sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"
+									data-preload="true" data-lazy-loaded=""
+									data-src="https://neural.syta.co/#activation=sigmoid&amp;regularization=L2&amp;batchSize=10&amp;dataset=linear&amp;regDataset=reg-gauss&amp;learningRate=0.03&amp;regularizationRate=0.01&amp;noise=0&amp;networkShape=1&amp;seed=0.88895&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;sinX=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=true"></iframe>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text"
+							style="width: 550px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
+							<div class="sl-block-content" style="text-align: left; z-index: 11;" data-gramm="false">
+								<h2>1 Variable</h2>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
+							style="width: 1280px; height: 625px; left: 0px; top: 95px;">
+							<div class="sl-block-content" style="z-index: 10;"><iframe
+									allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"
+									sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"
+									data-preload="true" data-lazy-loaded=""
+									data-src="https://neural.syta.co/#activation=sigmoid&amp;regularization=L2&amp;batchSize=10&amp;dataset=diagonal&amp;regDataset=reg-gauss&amp;learningRate=0.03&amp;regularizationRate=0.01&amp;noise=0&amp;networkShape=1&amp;seed=0.89583&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;sinX=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=true"></iframe>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text"
+							style="width: 550px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
+							<div class="sl-block-content" style="text-align: left; z-index: 11;" data-gramm="false">
+								<h2>2 Variables&nbsp;</h2>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
+							style="width: 1280px; height: 625px; left: 0px; top: 95px;">
+							<div class="sl-block-content" style="z-index: 10;"><iframe
+									allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"
+									sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"
+									data-preload="true" data-lazy-loaded=""
+									data-src="https://neural.syta.co/#activation=sigmoid&amp;regularization=L2&amp;batchSize=10&amp;dataset=xor&amp;regDataset=reg-gauss&amp;learningRate=0.03&amp;regularizationRate=0.01&amp;noise=0&amp;networkShape=1&amp;seed=0.47428&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;sinX=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=true"></iframe>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1204px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
+							<div class="sl-block-content" style="text-align: left; z-index: 11;"
+								data-lt-tmp-id="lt-496705" data-gramm="false">
+								<h2>XOR Distribution (no linearly separable)</h2>
+							</div>
+						</div>
+					</section>
 				</section>
 				<section class="stack">
 					<section>
@@ -97,16 +166,15 @@
 							</div>
 						</div>
 						<div class="sl-block" data-block-type="text"
-							style="width: 550px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
-							<div class="sl-block-content" style="text-align: left; z-index: 11;"
-								data-lt-tmp-id="lt-527390" data-gramm="false">
-								<h2>Bla bla</h2>
+							style="width: 1077px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
+							<div class="sl-block-content" style="text-align: left; z-index: 11;" data-gramm="false">
+								<h2>More complex example (lineal)</h2>
 							</div>
 						</div>
 					</section>
 					<section>
 						<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
-							style="width: 1280px; height: 625px; left: 0px; top: 95px;">
+							style="width: 1280px; height: 625px; left: 0px; top: 94px;">
 							<div class="sl-block-content" style="z-index: 10;"><iframe
 									allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"
 									sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"
@@ -115,10 +183,9 @@
 							</div>
 						</div>
 						<div class="sl-block" data-block-type="text"
-							style="width: 550px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
-							<div class="sl-block-content" style="text-align: left; z-index: 11;"
-								data-lt-tmp-id="lt-527390" data-gramm="false">
-								<h2>Bla bla</h2>
+							style="width: 1190px; left: 10px; top: 20px; height: auto;" data-name="text-faea57">
+							<div class="sl-block-content" style="text-align: left; z-index: 11;" data-gramm="false">
+								<h2>More complex example (plus quadratic)</h2>
 							</div>
 						</div>
 					</section>
@@ -133,13 +200,28 @@
 							</div>
 						</div>
 						<div class="sl-block" data-block-type="text"
-							style="width: 550px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
-							<div class="sl-block-content" style="text-align: left; z-index: 11;"
-								data-lt-tmp-id="lt-527390" data-gramm="false">
-								<h2>Bla bla</h2>
+							style="width: 1263px; left: 10px; top: 20px; height: auto;" data-name="text-faea57">
+							<div class="sl-block-content" style="text-align: left; z-index: 11;" data-gramm="false">
+								<h2>More complex example (plus trigonometric)</h2>
 							</div>
 						</div>
 					</section>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text"
+						style="width: 1075px; left: 102px; top: 590px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<h2>Learning rate</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image"
+						style="width: 884px; height: 505px; left: 0px; top: 13px;" data-name="image-b9877c">
+						<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="459"
+								data-natural-height="414" data-crop-x="0" data-crop-y="0.183319" data-crop-width="1"
+								data-crop-height="0.633361" style="left: 0px; top: -146px; width: 884px; height: 797px;"
+								data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764919/pasted-from-clipboard.png">
+						</div>
+					</div>
 				</section>
 			</div>
 		</div>
