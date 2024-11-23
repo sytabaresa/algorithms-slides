@@ -23,26 +23,47 @@
 	<div class="theme-font-montserrat theme-color-white-blue" style="width: 100%; height: 100%;">
 		<div class="reveal">
 			<div class="slides">
-				<section>
+				<section
+					data-background-image="https://images.unsplash.com/photo-1583339824000-5afecfd41835?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wyMDcwNnwwfDF8c2VhcmNofDd8fGFic3RyYWN0JTIwd2hpdGV8ZW58MHx8fHwxNzMyMzYzNTA4fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1920&amp;utm_source=slides&amp;utm_medium=referral&amp;utm_campaign=api-credit"
+					data-background-opacity="0.21">
 					<div class="sl-block" data-block-type="text"
-						style="width: 806px; left: 237px; top: 67px; height: auto;">
-						<div class="sl-block-content" data-gramm="false" style="z-index: 10;">
+						style="width: 1018px; left: 183px; top: 72px; height: auto;">
+						<div class="sl-block-content" data-gramm="false"
+							style="z-index: 11; text-align: right; font-size: 110%;">
 							<h1>Practical examples of Concepts of Neural Networks</h1>
 						</div>
 					</div>
 					<div class="sl-block" data-block-type="text"
-						style="height: auto; width: 322px; left: 158px; top: 432px;" data-name="text-59d069">
-						<div class="sl-block-content" style="z-index: 11;" data-lt-tmp-id="lt-477517"
-							data-gramm="false">
+						style="height: auto; width: 322px; left: 0px; top: 458.75px;" data-name="text-59d069">
+						<div class="sl-block-content" style="z-index: 12; color: rgb(255, 255, 255);"
+							data-lt-tmp-id="lt-477517" data-gramm="false">
 							<p><span>汇报人：思博</span></p>
 						</div>
 					</div>
 					<div class="sl-block" data-block-type="image"
-						style="width: 394.667px; height: 111px; left: 849.333px; top: 545.5px;"
+						style="width: 394.667px; height: 111px; left: 850.333px; top: 576px; min-width: 1px; min-height: 1px;"
 						data-name="image-92b6b2">
-						<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="352"
-								data-natural-height="99"
+						<div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="352"
+								data-natural-height="99" data-lazy-loaded=""
 								data-src="https://media.slid.es/uploads/3596/images/11764920/tianjin-red.png"></div>
+					</div>
+					<div class="sl-block" data-block-type="shape"
+						style="width: 519px; height: 134.5px; left: -197px; top: 411px;" data-name="shape-d0b118">
+						<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(179, 58, 50)"
+							data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg"
+								version="1.1" width="100%" height="100%" preserveAspectRatio="none"
+								viewBox="0 0 519 135">
+								<rect width="519" height="134.5" rx="0" ry="0" class="shape-element"
+									fill="rgb(179, 58, 50)"></rect>
+							</svg></div>
+					</div>
+					<div class="sl-block" data-block-type="text"
+						style="height: auto; width: 242px; left: 78px; top: 556.5px;" data-name="text-ee5ff1">
+						<div class="sl-block-content"
+							style="z-index: 14; color: rgb(0, 0, 0); text-align: right; font-size: 142%;"
+							data-gramm="false">
+							<p><strong>Group 20</strong></p>
+						</div>
 					</div>
 				</section>
 				<section>
@@ -54,23 +75,24 @@
 						</div>
 					</div>
 					<div class="sl-block" data-block-type="text"
-						style="width: 550px; left: 38px; top: 160px; height: auto;">
-						<div class="sl-block-content" style="z-index: 12; text-align: left;" data-lt-tmp-id="lt-877610"
-							data-gramm="false">
+						style="width: 550px; left: 38px; top: 181px; height: auto;">
+						<div class="sl-block-content" style="z-index: 12; text-align: left;" data-gramm="false">
 							<ul>
 								<li>1 neuron and problems that solve
 									<ul>
+										<li><span style="color:#B22222">Activation Function</span></li>
 										<li>2 groups</li>
 										<li>XOR</li>
 									</ul>
 								</li>
 								<li>1 layer and problems that solve
 									<ul>
-										<li style="color:rgb(0, 0, 0)">Features</li>
+										<li style="color:rgb(0, 0, 0)"><span style="color:#B22222">Features</span></li>
 									</ul>
 								</li>
 								<li>Train &amp; Test data</li>
 								<li>Learning Rate</li>
+								<li>Underfiting &amp; Overfiting</li>
 								<li>Regularization</li>
 								<li>Real Data</li>
 							</ul>
@@ -89,6 +111,115 @@
 				<section class="stack">
 					<section>
 						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102.5px; top: 47px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h2>Classification Problem</h2>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 523px; height: 510px; left: 21.5px; top: 166px; min-width: 1px; min-height: 1px;"
+							data-name="image-2fbc35">
+							<div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="523"
+									data-natural-height="510" data-lazy-loaded=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764973/pasted-from-clipboard.png">
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 523px; height: 510px; left: 737px; top: 166px; min-width: 1px; min-height: 1px;"
+							data-name="image-62803a">
+							<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="523"
+									data-natural-height="510" data-lazy-loaded=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764975/pasted-from-clipboard.png">
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="shape"
+							style="width: 184px; height: 78px; left: 560px; top: 354px;" data-name="shape-e57fc5">
+							<div class="sl-block-content" data-shape-type="arrow-right"
+								data-shape-fill-color="rgb(179, 58, 50)" data-shape-stretch="true" style="z-index: 13;">
+								<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%"
+									preserveAspectRatio="none" viewBox="0 0 184 78">
+									<polygon
+										points="0,23.4 92,23.4 92,0 184,39 92,78 92,54.599999999999994 0,54.599999999999994"
+										class="shape-element" fill="rgb(179, 58, 50)"></polygon>
+								</svg></div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102.5px; top: 47px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h2>Activation function</h2>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 1280px; height: 223.195px; left: 0px; top: 121px; min-width: 1px; min-height: 1px;"
+							data-name="image-7b6514">
+							<div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="1709"
+									data-natural-height="298" data-lazy-loaded=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11765058/pasted-from-clipboard.png">
+							</div>
+						</div>
+
+						<div class="sl-block" data-block-type="shape"
+							style="width: 728.811px; height: 375.805px; left: 0px; top: 344.195px;"
+							data-name="shape-ea5f95">
+							<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000"
+								data-shape-stretch="true" style="z-index: 12;">
+								<video width="100%" height="100%" controls="" data-paused-by-reveal=""
+									style="position: absolute; z-index:10;" autoplay="" mute="">
+									<source src="http://assets.epi3.co/misc/aa.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+								<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%"
+									preserveAspectRatio="none" viewBox="0 0 729 376">
+
+
+
+
+									<rect width="728.811" height="375.805" rx="0" ry="0" class="shape-element"
+										fill="#000000"></rect>
+								</svg>
+							</div>
+						</div>
+						<div class="sl-block sl-block-group" data-block-type="group" data-name="group-ac6ba9">
+							<div class="sl-block-content sl-block-group-content"
+								style="transform-origin: 993.753px 547.048px; z-index: 13;">
+								<div class="sl-block" data-block-type="image"
+									style="width: 367.494px; height: 168.593px; left: 810.006px; top: 462.752px; min-width: 1px; min-height: 1px;"
+									data-name="image-6e8ab0">
+									<div class="sl-block-content" style="z-index: 14;"><img class=""
+											data-natural-width="194" data-natural-height="89" data-lazy-loaded=""
+											data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764961/perceptron.svg">
+									</div>
+								</div>
+								<div class="sl-block" data-block-type="shape"
+									style="width: 74.9025px; height: 74.9025px; left: 1070.81px; top: 509.597px;"
+									data-name="shape-511d6e">
+									<div class="sl-block-content" data-shape-type="rect"
+										data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true"
+										style="z-index: 15;" data-shape-stroke-color="#b33a32"
+										data-shape-stroke-width="10px"><svg xmlns="http://www.w3.org/2000/svg"
+											version="1.1" width="100%" height="100%" preserveAspectRatio="none"
+											viewBox="0 0 75 75">
+											<defs>
+												<clipPath id="shape-mask-1-1732370546731">
+													<rect width="74.9025" height="74.9025" rx="0" ry="0"
+														fill="rgb(255, 255, 255)" stroke="#b33a32" stroke-width="20">
+													</rect>
+												</clipPath>
+											</defs>
+											<rect width="74.9025" height="74.9025" rx="0" ry="0" class="shape-element"
+												fill="rgb(255, 255, 255)" stroke="#b33a32" stroke-width="20"
+												clip-path="url(#shape-mask-1-1732370546731)"></rect>
+										</svg></div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+				<section class="stack">
+					<section>
+						<div class="sl-block" data-block-type="text"
 							style="width: 1075px; left: 102px; top: 194px; height: auto;">
 							<div class="sl-block-content" style="z-index: 10;">
 								<h1>1 Neuron (perceptron)</h1>
@@ -98,6 +229,14 @@
 							style="width: 1075px; left: 102px; top: 292px; height: auto;">
 							<div class="sl-block-content" style="z-index: 11;">
 								<h2>1 var, 2 vars, XOR</h2>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 248.494px; height: 114px; left: 515.253px; top: 432px; min-width: 1px; min-height: 1px;"
+							data-name="image-6e8ab0">
+							<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="194"
+									data-natural-height="89" data-lazy-loaded=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764961/perceptron.svg">
 							</div>
 						</div>
 					</section>
@@ -156,6 +295,28 @@
 				</section>
 				<section class="stack">
 					<section>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102.5px; top: 101px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>1 layer</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102.5px; top: 199px; height: auto;">
+							<div class="sl-block-content" style="z-index: 11;">
+								<h2>1 var, 2 vars, XOR</h2>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 276.5px; height: 316.848px; left: 501.75px; top: 345.576px; min-width: 1px; min-height: 1px;"
+							data-name="image-602889">
+							<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="233"
+									data-natural-height="267" data-lazy-loaded=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764962/1-layer.svg">
+							</div>
+						</div>
+					</section>
+					<section>
 						<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
 							style="width: 1280px; height: 625px; left: 0px; top: 95px;">
 							<div class="sl-block-content" style="z-index: 10;"><iframe
@@ -207,26 +368,120 @@
 						</div>
 					</section>
 				</section>
+				<section class="stack">
+					<section>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102.5px; top: 101px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h1>network</h1>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102.5px; top: 199px; height: auto;">
+							<div class="sl-block-content" style="z-index: 11;" data-gramm="false">
+								<h2>Underfit &amp; Overfit, learning rate</h2>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 467px; height: 236.59px; left: 393.794px; top: 385.705px; min-width: 1px; min-height: 1px;"
+							data-name="image-602889">
+							<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="529"
+									data-natural-height="268" data-lazy-loaded="" style=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764984/network.svg">
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1075px; left: 102.5px; top: 10px; height: auto;">
+							<div class="sl-block-content" style="z-index: 10;">
+								<h2>Learning rate</h2>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text"
+							style="height: auto; width: 590px; left: 690px; top: 672.5px;" data-name="text-59a747">
+							<div class="sl-block-content" style="z-index: 12;">
+								<p><span style="font-size:0.7em"><a
+											href="https://cs231n.github.io/neural-networks-3/#update"
+											target="_blank">https://cs231n.github.io/neural-networks-3/#update</a></span>
+								</p>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 512px; height: 425.22px; left: 640px; top: 144px; min-width: 1px; min-height: 1px;"
+							data-name="image-2ee9dd">
+							<div class="sl-block-content" style="z-index: 13;"><img class="" data-natural-width="472"
+									data-natural-height="392" data-lazy-loaded=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764979/pasted-from-clipboard.png">
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="image"
+							style="width: 511.109px; height: 461px; left: 80px; top: 144px; min-width: 1px; min-height: 1px;"
+							data-name="image-623310">
+							<div class="sl-block-content" style="z-index: 14;"><img class="" data-natural-width="459"
+									data-natural-height="414" data-lazy-loaded=""
+									data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764980/pasted-from-clipboard.png">
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
+							style="width: 1280px; height: 625px; left: 0px; top: 95px;">
+							<div class="sl-block-content" style="z-index: 10;"><iframe
+									allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"
+									sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"
+									data-lazy-loaded="" data-preload="true"
+									data-src="https://neural.syta.co/#activation=sigmoid&amp;batchSize=10&amp;dataset=spiral&amp;regDataset=reg-gauss&amp;learningRate=0.3&amp;regularizationRate=0.01&amp;noise=0&amp;networkShape=5,4,2&amp;seed=0.62130&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;sinX=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=true"></iframe>
+							</div>
+						</div>
+						<div class="sl-block" data-block-type="text"
+							style="width: 1077px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
+							<div class="sl-block-content" style="text-align: left; z-index: 11;" data-gramm="false">
+								<h2>Underfitting &amp; Overfitting</h2>
+							</div>
+						</div>
+					</section>
+				</section>
 				<section>
+					<div class="sl-block" data-block-type="iframe" data-name="iframe-50da84"
+						style="width: 1280px; height: 625px; left: 0px; top: 95px;">
+						<div class="sl-block-content" style="z-index: 10;"><iframe
+								allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"
+								sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"
+								data-lazy-loaded="" data-preload="true"
+								data-src="https://neural.syta.co/#activation=sigmoid&amp;batchSize=10&amp;dataset=spiral&amp;regDataset=reg-gauss&amp;learningRate=0.3&amp;regularizationRate=0.01&amp;noise=0&amp;networkShape=5,4,2&amp;seed=0.62130&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;sinX=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=true"></iframe>
+						</div>
+					</div>
 					<div class="sl-block" data-block-type="text"
-						style="width: 1075px; left: 102px; top: 590px; height: auto;">
-						<div class="sl-block-content" style="z-index: 11;">
-							<h2>Learning rate</h2>
+						style="width: 1077px; left: 10px; top: 21px; height: auto;" data-name="text-faea57">
+						<div class="sl-block-content" style="text-align: left; z-index: 11;" data-gramm="false">
+							<h2>Regularization L1 &amp; L2</h2>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="rgb(254, 255, 255)">
+					<div class="sl-block" data-block-type="text"
+						style="width: 710px; left: 125px; top: 165px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11; font-size: 200%; text-align: left;"
+							data-lt-tmp-id="lt-538279" data-gramm="false">
+							<h1>
+								<span style="text-align:start">Thanks 谢谢</span><span>&nbsp;</span>
+							</h1>
 						</div>
 					</div>
 					<div class="sl-block" data-block-type="image"
-						style="width: 884px; height: 505px; left: 0px; top: 13px;" data-name="image-b9877c">
-						<div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="459"
-								data-natural-height="414" data-crop-x="0" data-crop-y="0.183319" data-crop-width="1"
-								data-crop-height="0.633361" style="left: 0px; top: -146px; width: 884px; height: 797px;"
-								data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11764919/pasted-from-clipboard.png">
+						style="width: 856.42px; height: 851px; left: 606.58px; top: 0px;" data-name="image-0c836f">
+						<div class="sl-block-content" style="z-index: 10; border-width: 1px;"><img class=""
+								data-natural-width="474" data-natural-height="500" data-crop-x="0" data-crop-y="0"
+								data-crop-width="1" data-crop-height="0.942"
+								style="left: 0px; top: 0px; width: 856px; height: 903px;"
+								data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/3596/images/11765084/pasted-from-clipboard.png">
 						</div>
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
-
 	<script src="dist/reveal.js"></script>
 	<script src="plugin/notes/notes.js"></script>
 	<script src="plugin/markdown/markdown.js"></script>
